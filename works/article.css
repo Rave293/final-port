@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+nav h1{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: "Jaldi", serif;
+       font-weight: 400;
+       font-style: normal;
+}
+nav .nav-con{
+    border-bottom: 3px solid red;
+}
+
+p{
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: "Jaldi", serif;
+       font-weight: 400;
+       font-style: normal;
+}
+
+.article{
+    text-align: center;
+    margin-top: 4rem;
+    background-color: whitesmoke;
+}
+
+.art_content > a{
+    text-decoration: none;
+    color:black ;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Jaldi", serif;
+       font-weight: 400;
+       font-style: normal;
+}
+.art_content  p{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:black ;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Jaldi", serif;
+       font-weight: 400;
+       font-style: normal;  
+}
+
+.art-con{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+img{
+    height: 220px;
+    width: 300px;
+}
+
+
+@media(max-width:480px) {  
+    img{
+        height: 100px;
+        width: 170px;
+    }
+  nav h1{
+    font-size: 1.4rem;
+  }
+  
+   }

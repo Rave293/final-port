@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav > h1{
+    font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    display: inline-flex;
+    gap: 8px;
+    font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+ul > a  {
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+    border-bottom: 1px solid red;
+    cursor: pointer;
+}
+
+.contanier{
+    margin-top: 4rem;
+    background-color: whitesmoke;
+    height: 490PX;
+}
+.about-con > h1{
+    font-size: 2rem;
+ text-align: center;
+ font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+span{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    line-height: 25px;
+    margin-top: 30px;
+    font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+img{
+    border-radius: 80%;
+    height: 380px;
+    width: 450px;
+    float: right;
+    margin-top: 59px;
+}
+
+
+
+
+@media(max-width:480px) {  
+
+
+
+span{
+    text-align: center;
+}
+    img{
+        display: flex;
+        justify-content: center;
+        border-radius: 80%;
+        height: 260px;
+        width: 320px;
+        margin-top: 50px;
+        margin-right: 1.6rem;
+      
+    }
+
+   }

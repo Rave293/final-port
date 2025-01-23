@@ -1,0 +1,203 @@
+body{
+    background-color: rgba(255, 255, 255, 0.532);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    
+}
+nav a:hover{
+    border-bottom: solid rgba(255, 0, 0, 0.652) 2px;
+}
+nav li{
+    display: inline;
+    list-style: none;
+
+}
+.nav-h1{
+    font-size: 1.8rem;
+    margin-top: 9px;
+    font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.social-img img{
+    height: 30px;
+    margin-top: 6px;
+    padding: 8px;
+    cursor: pointer;
+    /* border: 5px solid black; */
+}
+
+.hero-page{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.hero-page h1{
+    font-size: 2rem;
+    font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-page button{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(10, 140, 97, 0.669);
+    color: white;
+    border: none;
+    font-family: sans-serif;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 5px;
+    margin-top: 20px;
+    
+}
+
+.info_content{
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: 0.8rem;
+}
+
+.info h1 {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jaldi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+.info-anchor{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.graph-con{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.graph-con:hover{
+background-image: url('../img/video/about-con.jpg');
+background-size: cover;
+height: 200px;
+cursor: pointer;
+}
+
+.article-con{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.article-con:hover{
+ background-image: url("../img/video/article-con.jpg");
+  background-size:cover;
+ height: 200px;
+cursor: pointer;
+}
+
+.content-con{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.content-con:hover{
+ background-image: url("../img/video/video-con.jpg");
+  background-size:cover;
+ height: 200px;
+cursor: pointer;
+}
+
+.empty-con{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.empty-con:hover{
+    background-image: url("../img/video/article.jpg");
+     background-size:cover;
+    height: 200px;
+   cursor: pointer;
+   }
+.camp-con{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.camp-con:hover{
+ background-image: url("../img/video/camp-con.jpg");
+  background-size:cover;
+ height: 200px;
+cursor: pointer;
+}
+.videos-con{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.videos-con:hover{
+ background-image: url("../img/video/video-con.jpg");
+  background-size:cover;
+ height: 200px;
+cursor: pointer;
+}
+
+.project-con{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.project-con:hover{
+ background-image: url("../img/video/project-con.jpg");
+  background-size:cover;
+ height: 200px;
+cursor: pointer;
+}
+
+
+@media(max-width:480px) {  
+
+ .nav-h1{
+        font-size: 1.2rem;
+        margin-top: 9px;
+        font-family: "Jaldi", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+ }
+ nav a {
+   font-size: 1rem;
+   margin-right: 1rem;
+    
+}
+.social-img img{
+    height: 15px;
+    margin-top: 15px;
+    padding: 4px;
+    cursor: pointer;
+    /* border: 5px solid black; */
+}
+.hero-page h1{
+    font-size: 1.5rem;
+}
+.hero-page p{
+    font-size: 0.8rem;
+}
+.hero-page button{
+    width: 170px;
+    height: 30px;
+}
+.info h1 {
+    font-size: 1rem;
+}
+
+}
