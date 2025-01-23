@@ -98,7 +98,7 @@ nav li{
     background-color: rgba(0, 0, 0, 0.842);
 }
 .graph-con:hover{
-background-image: url('../img/video/about-con.jpg');
+background-image: url('./img/video/about-con.jpg');
 background-size: cover;
 height: 200px;
 cursor: pointer;
@@ -108,7 +108,7 @@ cursor: pointer;
     background-color: rgba(0, 0, 0, 0.842);
 }
 .article-con:hover{
- background-image: url("../img/video/article-con.jpg");
+ background-image: url("./img/video/article-con.jpg");
   background-size:cover;
  height: 200px;
 cursor: pointer;
@@ -118,7 +118,7 @@ cursor: pointer;
     background-color: rgba(0, 0, 0, 0.842);
 }
 .content-con:hover{
- background-image: url("../img/video/video-con.jpg");
+ background-image: url("./img/video/video-con.jpg");
   background-size:cover;
  height: 200px;
 cursor: pointer;
@@ -129,7 +129,7 @@ cursor: pointer;
 }
 
 .empty-con:hover{
-    background-image: url("../img/video/article.jpg");
+    background-image: url("./img/video/article.jpg");
      background-size:cover;
     height: 200px;
    cursor: pointer;
@@ -138,7 +138,7 @@ cursor: pointer;
     background-color: rgba(0, 0, 0, 0.842);
 }
 .camp-con:hover{
- background-image: url("../img/video/camp-con.jpg");
+ background-image: url("./img/video/camp-con.jpg");
   background-size:cover;
  height: 200px;
 cursor: pointer;
@@ -147,7 +147,7 @@ cursor: pointer;
     background-color: rgba(0, 0, 0, 0.842);
 }
 .videos-con:hover{
- background-image: url("../img/video/video-con.jpg");
+ background-image: url("./img/video/video-con.jpg");
   background-size:cover;
  height: 200px;
 cursor: pointer;
@@ -157,7 +157,7 @@ cursor: pointer;
     background-color: rgba(0, 0, 0, 0.842);
 }
 .project-con:hover{
- background-image: url("../img/video/project-con.jpg");
+ background-image: url("./img/video/project-con.jpg");
   background-size:cover;
  height: 200px;
 cursor: pointer;
